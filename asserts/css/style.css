@@ -1,21 +1,77 @@
-body {
-    font-family: Helvectica, Arial, Helvetica, sans-serif;
-    color: #39a6b2;
-}
-/* apply styles to header */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
-header h1 {
+/* some updates copy and pasted from edits I made offline in codepen.io while at work */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Helvectica, Arial, Helvetica, sans-serif;
+      color: #39a6b2;
+  }
+  /* apply styles to header */
+  header {
+      padding: 20px 35px;
+      background-color: #39a6b2;
+  }
+  
+  header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin:0;
-}
-header a {
-    color: #fce138;
-}
-
-
-
+    margin: 0;
+    display: inline;
+  }
+  
+  header a {
+    text-decoration: none;
+      color: #fce138;
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li{
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px
+  }
+  
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+  footer h2 {
+    dispay: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0
+  }
+  /* my div isnt as centered as the images added margin to div for style*/
+  
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: center;
+   margin: -40px;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
