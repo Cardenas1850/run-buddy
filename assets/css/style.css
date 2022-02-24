@@ -68,11 +68,14 @@ section {
 padding: 60px;
 }
 
+section h3 {
+margin: 0 5px;
+
 /* hero style start */
 .hero {
 background-image: url("/Users/Carde/run-buddy/assets/images/hero-bg.jpg");
 height: 600px;
-background-size: cover;
+background-siz: cover;
 background-position: center;
 position: relative;
 }
@@ -108,8 +111,6 @@ width: 100%;
 margin-bottom: 15px;
 }
 
-section h3 {
-margin: 0 5px;
 
 }
 .intro {
@@ -133,5 +134,33 @@ margin: 0 5px;
    margin: 0 auto;
  }
 
+ .steps {
+   text-align: center;
+   background: #fce138;
+ }
+ .steps h2 {
+   font-size: 55px;
+   color: #024e76;
+   margin-bottom: 35px;
+   padding: 0 100px 20px 100px;
+   border-bottom: 3px solid;
+   border-color:#39a6b2;
+ }
+ .section-title {
+   font-size: 55px;
+   color: #024e76;
+   margin-bottom: 35px;
+   padding: 0 100px 20px 100px;
+   display: inline-block;
+   border-bottom: 3px solid;
+ }
+
+ .primary-border {
+   border-color:#fce138;
+ }
+
+ .secondary-border {
+   border-color: #39a6b2;
+ }
  
  
