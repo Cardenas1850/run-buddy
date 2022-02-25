@@ -70,15 +70,17 @@ padding: 60px;
 
 section h3 {
 margin: 0 5px;
+}
 
 /* hero style start */
 .hero {
-background-image: url("/Users/Carde/run-buddy/assets/images/hero-bg.jpg");
-height: 600px;
-background-siz: cover;
-background-position: center;
-position: relative;
-}
+  background-image: url("/Users/Carde/run-buddy/assets/images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
+
 .hero-form {
 background-color: #fce138;
 padding: 20px;
@@ -112,7 +114,6 @@ margin-bottom: 15px;
 }
 
 
-}
 .intro {
   text-align: center;
 }
@@ -128,7 +129,7 @@ margin-bottom: 15px;
 
  .intro p {
    line-height: 1.7;
-   color:#39a6b2
+   color:#39a6b2;
    width: 80%;
    font-size: 20px;
    margin: 0 auto;
