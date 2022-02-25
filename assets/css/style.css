@@ -74,7 +74,7 @@ margin: 0 5px;
 
 /* hero style start */
 .hero {
-  background-image: url("/Users/Carde/run-buddy/assets/images/hero-bg.jpg");
+  background-image: url("./assets/images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
